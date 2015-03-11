@@ -13,10 +13,10 @@
 #
 class arch_dev::gnome-devel {
 
-  $packages = ['gtk3-git']
+#  $packages = ['gtk3-git']
 
-  package {$packages:
-    ensure => present,
-  }
+#  package {$packages:
+#    ensure => present,
+#  }
 
 }
