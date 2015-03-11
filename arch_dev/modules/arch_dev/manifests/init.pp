@@ -43,7 +43,7 @@ class arch_dev {
 #  include arch_dev::firewall_pre
 
   # Install proprietary google-chrome package and ttf-google-fonts-git from archlinuxfr repository.
-  include arch_dev::googlechrome
+#  include arch_dev::googlechrome
 
   # Install iptables and setup framework for puppetlabs/firewall module and set custom rules
 #  include arch_dev::iptables

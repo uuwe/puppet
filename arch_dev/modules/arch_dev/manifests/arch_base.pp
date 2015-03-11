@@ -22,7 +22,6 @@ class arch_dev::arch_base {
   package {'lynx': ensure => absent, }
   package {'lsb-release': ensure => present, }
   package {'dmidecode': ensure => present, }
-  package {'macfanctld-git': ensure => present, }
   package {'alsa-utils': ensure => present, }
   package {'ttf-dejavu': ensure => present, }
   package {'screen': ensure => present, }
